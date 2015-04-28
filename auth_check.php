@@ -1,7 +1,7 @@
 <?php
 if(isset($_COOKIE['hash'], $_COOKIE['uid'])) {
    $app_id = 3088407;
-   $secret = "9lsEOx6WAjpCUhoQR1hy";
+   $secret = "ksdpofjspodfposfpsf";
    $uid = $_COOKIE['uid'];
    $pre_hash = md5($app_id.$uid.$secret);
    if($pre_hash==$_COOKIE['hash']) {
@@ -20,7 +20,7 @@ if(isset($_COOKIE['hash'], $_COOKIE['uid'])) {
           $photo = $row['photo'];
           $photo_rec = $row['photo_rec'];
    } else {
-    auth_fail(); // несовпадение с БД
+        auth_fail(); // несовпадение с БД
    }
    } else {
      auth_fail(); // левый хеш
