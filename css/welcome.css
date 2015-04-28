@@ -1,0 +1,20 @@
+﻿.greeting {
+  background-color: black;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 13px;
+}
+.user_id {
+  color: #BF9900;
+  font-weight: bold;
+}
+.user_pic {
+  border-radius: 5px;
+  border: 1px solid #474545;
+  box-shadow: 0px 0px 10px black;
+}
+.user_name {
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0px 0px 5px black;
+}

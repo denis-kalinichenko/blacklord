@@ -1,0 +1,7 @@
+RewriteBase /
+RewriteEngine on
+RewriteRule ^i/([^/\.]+)/?$ info.php?id=$1 [L]
+RewriteRule ^d/([^/\.]+)/?$ date.php?id=$1 [L]
+RewriteRule ^c/([^/\.]+)/?$ can.php?id=$1 [L]
+RewriteRule ^feed feed.php [NC]
+ErrorDocument 404 /404.php

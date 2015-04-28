@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+ .block
+{
+   position: absolute;
+   overflow: auto;
+   width: 900px;
+   min-height: 500px;
+   left: 50%;
+   top: 50%;
+   margin-left: -450px;
+   margin-top: -250px;
+   padding: 10px;
+}
+.photo {
+  border-radius: 10px;
+  padding: 2px;
+  margin-bottom: 10px;
+}
+
+#bottom {
+  position: absolute;
+  bottom: 2px;
+  left: 4px;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+.lurkmore {
+  opacity: 0.7;
+}
+.lurkmore:hover {
+  opacity: 1;
+}
+.question {
+  font-size: 17px;
+  color: #DDDDDD;
+}
+.answer {
+  margin: 5px;
+  font-size: 22px;
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+.share {
+  color: #BF9900;
+  font-weight: bold;
+}
+.gr {
+  color: #009900;
+  text-shadow: 0px 0px 3px black;
+}
+.red {
+  color: #CA0000;
+  text-shadow: 0px 0px 3px black;
+}
+.gold {
+  color: #CC9933;
+  text-shadow: 0px 0px 3px black;
+}
+.like {
+  font-size: 12px;
+  padding: 4px 6px;
+  -webkit-transition: all 0.2s;
+}
+.like:hover {
+  text-decoration: none;
+  background-color: #222222;
+  border-bottom: 1px solid green;
+  -webkit-transition: all 0.2s;
+}
+.faves {
+  font-size: 12px;
+  padding: 4px 6px;
+  -webkit-transition: all 0.2s;
+}
+.faves:hover {
+  text-decoration: none;
+  background-color: #111111;
+  -webkit-transition: all 0.2s;
+}
+h1 {
+  font-size: 16px;
+}

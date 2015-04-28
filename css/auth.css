@@ -1,0 +1,41 @@
+﻿body {
+  margin: 0;
+  background-color: #333333;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+}
+ .block {
+   position: absolute;
+   overflow: auto;
+   width: 700px;
+   min-height: 300px;
+   left: 50%;
+   top: 50%;
+   margin-left: -350px;
+   margin-top: -150px;
+   padding: 20px;
+   border-radius: 10px;
+   font-size: 13px;
+ }
+ #auth {
+ padding: 20px;
+ background-color: black;
+ display: table-cell;
+ border: 1px solid #777777;
+ border-radius: 3px;
+ box-shadow: 0px 0px 6px black;
+ }
+h1 {
+  font-size: 16px;
+}
+a {
+  color: #BBBBBB;
+  padding: 10px;
+  background-color: black;
+  text-shadow: 0px 0px 5px black;
+  text-decoration: none;
+  border-radius: 5px;
+}
+a:hover {
+   color: white;
+}

@@ -1,0 +1,97 @@
+body {
+  margin: auto auto;
+  background-color: #111111;
+  color: white;
+  padding: 0;
+  font-family:Arial, Helvetica, sans-serif;
+  max-width: 500px;
+}
+.photo {
+  width: 70%;
+  max-width: 300px;
+}
+.send {
+  padding: 5px;
+  font-size: 20px;
+  background-color: #006600;
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+textarea {
+  border-radius: 5px;
+  background-color: #333333;
+  border: 2px solid black;
+  color: white;
+  font-family:Arial, Helvetica, sans-serif;
+  height: 30px;
+}
+.input {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+
+#bottom {
+  box-shadow: 0 0 15px black;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #111111;
+  color: #8A8A8A;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 0;
+  border-top: 1px solid #444444;
+  border-bottom: 1px solid black;
+}
+#bottom > a {
+  color: white;
+  padding: 10px 3%;
+  text-decoration: none;
+  text-shadow: 1px 1px 3px black;
+}
+.res {
+  padding: 10px;
+  text-shadow: 1px 1px 3px black;
+  font-weight: bold;
+  display: table-cell;
+  border: 1px solid black;
+}
+.gr {
+   background-color: #003300;
+}
+.red {
+  background-color: #790000;
+}
+#nav > a {
+  color: white;
+  padding: 2%;
+  border: 1px solid #555555;
+}
+#nav > span {
+  color: white;
+  padding: 2%;
+  border: 1px solid #070;
+  background-color: black;
+  text-shadow: 1px 1px 2px black;
+}
+#nav {
+  width: 97%;
+  max-width: 500px;
+  padding: 10px 0px;
+  margin-top: 5px;
+}
+.help {
+  background-color: black;
+  width: 100%;
+  text-align: left;
+  max-width: 500px;
+  font-size: 13px;
+  border-top: 1px solid #222222;
+}
+.help > td {
+  padding: 1%;
+}

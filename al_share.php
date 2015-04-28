@@ -1,0 +1,5 @@
+﻿<center><input type="text" value="http://infa.t15.org" readonly="readonly" class="link_share" /><br />
+<a href="#vk" onclick="window.open('http://vk.com/share.php?url=http://infa.t15.org','Инфасотка','width=700,height=500')"><img src="http://vkontakte.ru/press/Simple.png" width="30px"/></a>
+<a href="#fb" onclick="window.open('https://www.facebook.com/sharer.php?u=http%3A%2F%2Finfa.t15.org','Facebook','width=660,height=350')"><img src="http://icons.iconarchive.com/icons/yootheme/social-bookmark/256/social-facebook-box-blue-icon.png" width="35px"/></a>
+<a href="#tw" onclick="window.open('https://twitter.com/intent/tweet?original_referer=http://infa.t15.org&text=Узнай оценку Властелина&url=http://infa.t15.org','Facebook','width=660,height=350')"><img src="http://icons.iconarchive.com/icons/yootheme/social-bookmark/256/social-twitter-box-white-icon.png" width="35px"/></a>
+</center>

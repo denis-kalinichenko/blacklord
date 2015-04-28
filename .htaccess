@@ -1,0 +1,16 @@
+RewriteBase /
+RewriteEngine on
+RewriteRule ^i/([^/\.]+)/?$ info.php?id=$1 [L]
+RewriteRule ^d/([^/\.]+)/?$ date.php?id=$1 [L]
+RewriteRule ^c/([^/\.]+)/?$ can.php?id=$1 [L]
+RewriteRule ^user/([^/\.]+)/?$ user.php?id=$1 [L]
+RewriteRule ^posts/([^/\.]+)/?$ posts.php?id=$1 [L]
+RewriteRule ^fave/([^/\.]+)/?$ fave.php?id=$1 [L]
+ErrorDocument 404 http://infa.t15.org/404.php
+RewriteRule ^last last.php [NC]
+RewriteRule ^feed feed.php [NC]
+RewriteRule ^terms terms.php [NC]
+RewriteRule ^share share.php [NC]
+RewriteRule ^developer dev.php [NC]
+RewriteRule ^beta index2.php [NC]
+RedirectMatch /info/([^/\.]+)/?$  http://infa.t15.org/i/$1

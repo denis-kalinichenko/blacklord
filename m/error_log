@@ -1,0 +1,13 @@
+[19-Jun-2012 08:47:19] PHP Warning:  include(metrika.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/u586415146/public_html/m/info.php on line 54
+[19-Jun-2012 08:47:19] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'metrika.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/u586415146/public_html/m/info.php on line 54
+[19-Jun-2012 08:47:46] PHP Warning:  include(metrika.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/u586415146/public_html/m/info.php on line 54
+[19-Jun-2012 08:47:46] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'metrika.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/u586415146/public_html/m/info.php on line 54
+[19-Jun-2012 08:47:53] PHP Warning:  include(metrika.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/u586415146/public_html/m/info.php on line 54
+[19-Jun-2012 08:47:53] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'metrika.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/u586415146/public_html/m/info.php on line 54
+[19-Jun-2012 08:48:00] PHP Warning:  include(metrika.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/u586415146/public_html/m/info.php on line 54
+[19-Jun-2012 08:48:00] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'metrika.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/u586415146/public_html/m/info.php on line 54
+[19-Jun-2012 14:56:07] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/u586415146/public_html/m/feed.php on line 36
+[19-Jun-2012 14:57:18] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/u586415146/public_html/m/feed.php on line 41
+[19-Jun-2012 14:58:55] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /home/u586415146/public_html/m/feed.php on line 41
+[15-Sep-2012 04:25:56] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/u586415146/public_html/m/feed.php on line 55
+[15-Sep-2012 04:26:15] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /home/u586415146/public_html/m/feed.php on line 55
